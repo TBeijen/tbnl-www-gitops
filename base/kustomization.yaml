@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- www-2003.yaml
+
+labels:
+  - pairs:
+      app.kubernetes.io/component: www-2003
+    includeSelectors: true
+    includeTemplates: true
