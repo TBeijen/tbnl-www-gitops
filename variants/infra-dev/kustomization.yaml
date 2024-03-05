@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/v1alpha1
+kind: Component
+
+labels:
+  - pairs:
+      # In cases where telemetry uses a single tenant, this allows us to tell infra environments apart
+      tbnl.nl/infra-env: dev
+
