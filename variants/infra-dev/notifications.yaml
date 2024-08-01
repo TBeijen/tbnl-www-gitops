@@ -5,3 +5,4 @@ metadata:
   name: www
   annotations:
     notifications.argoproj.io/subscribe.on-sync-succeeded.slack: notifications
+    foo: bar
