@@ -6,6 +6,3 @@ labels:
       # In cases where telemetry uses a single tenant, this allows us to tell infra environments apart
       tbnl.nl/infra-env: dev
     includeTemplates: true
-
-patchesStrategicMerge:
-- notifications.yaml
