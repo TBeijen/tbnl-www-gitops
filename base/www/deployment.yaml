@@ -21,13 +21,10 @@ spec:
               mountPath: /etc/nginx/conf.d/default.conf
               subPath: default.conf
               readOnly: true
+          resources:
+            requests:
+              memory: "15Mi"
       volumes:
         - name: nginx-config
           configMap:
             name: www-nginx
-
-
-          # resources:
-          #   limits:
-          #     memory: "128Mi"
-          #     cpu: "200m"
