@@ -8,4 +8,4 @@ spec:
     spec:
       containers:
       - name: www
-        image: ghcr.io/tbeijen/tbnl-hugo:sha-10ef698
+        image: ghcr.io/tbeijen/tbnl-hugo:sha-bfc5e81
